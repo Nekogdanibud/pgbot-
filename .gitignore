@@ -1,0 +1,67 @@
+# Игнорируем файлы IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+.env/
+.env
+!.env.example
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и системные файлы
+*.log
+*.sqlite
+*.db
+*.pid
+*.dump
+
+# Файлы зависимостей
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Конфигурационные файлы (особенно с секретами!)
+.env
+config.py
+secrets.py
+*.env
+
+# Файлы БД (если не хотите коммитить тестовые БД)
+*.db
+*.sqlite
+*.db-journal
+*.sqlite-journal
+
+# Директории с пользовательскими данными
+data/
+media/
+downloads/
+temp/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.history/
